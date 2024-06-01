@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+}
+
+input,
+textarea,
+select,
+button {
+    font-size: inherit;
+    font-family: inherit;
+}
+
+.container {
+    width: 100%;
+    max-width: calc(100% - 12px);
+    margin: 0 auto;
+}
+
+/* Comon */
+a {
+    text-decoration: none;
+}
+
+/* Info-header */
+.info-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 0;
+}
+
+.info__list {
+    display: flex;
+}
+
+.info__link {
+    position: relative;
+    padding: 4px 8px;
+    color: black;
+    font-size: 1.2rem;
+}
+
+.info__link::before {
+    position: absolute;
+    content: "";
+    display: inline-block;
+    height: 15px;
+    width: 1px;
+    top: 9px;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.467);
+}
+
+.indo-product__desc {
+    font-size: 1.2rem;
+    color: black;
+}
+
+.info-contact__list {
+    display: flex;
+}
+
+.info-contact__link {
+    position: relative;
+    padding: 4px 8px;
+    color: black;
+    font-size: 1.2rem;
+}
+
+.info-contact__link::before {
+    position: absolute;
+    content: "";
+    display: inline-block;
+    height: 15px;
+    width: 1px;
+    top: 9px;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.467);
+}

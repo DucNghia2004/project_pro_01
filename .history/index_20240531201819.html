@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <!-- Reset CSS -->
+        <link rel="stylesheet" href="./assets/css/resets.css" />
+
+        <!-- Embed font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Styles CSS -->
+        <link rel="stylesheet" href="./assets/css/styles.css" />
+    </head>
+    <body>
+        <!-- Info_header -->
+        <div class="info">
+            <div class="container">
+                <div class="info-info">
+                    <div class="info-header">
+                        <ul class="info__list">
+                            <li class="info__item">
+                                <a href="#!" class="info__link">Về chúng tôi</a>
+                            </li>
+                            <li class="info__item">
+                                <a href="#!" class="info__link">Tài khoản</a>
+                            </li>
+                            <li class="info__item">
+                                <a href="#!" class="info__link">Yêu thích</a>
+                            </li>
+                            <li class="info__item">
+                                <a href="#!" class="info__link"
+                                    >Theo dõi đơn hàng</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="info-product">
+                        <p class="indo-product__desc">
+                            Giao dịch an toàn! Khuyến mãi hấp dẫn! Mặt hàng
+                            phong phú
+                        </p>
+                    </div>
+                    <div class="info-contact">
+                        <ul class="info-contact__list">
+                            <li class="info-contact__item">
+                                <a href="#!" class="info-contact__link">
+                                    Liên hệ:
+                                    <strong class="info__tell"
+                                        >0915-659-233</strong
+                                    >
+                                </a>
+                            </li>
+                            <li class="info-contact__item">
+                                <a href="#!" class="info-contact__link"
+                                    >Tiếng việt</a
+                                >
+                            </li>
+                            <li class="info-contact__item">
+                                <a href="#!" class="info-contact__link">VNĐ</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Info_middle -->
+        <div class="info-middle">
+            <div class="container">
+                <div class="info__inner">
+                    <img
+                        src="./shop_organic/shop_organic/theme/logo.jpg"
+                        alt=""
+                        class="info__logo"
+                    />
+                    <form action="" class="search-form">
+                        <p class="search-form__desc">Nhóm hàng hóa</p>
+                        <input
+                            type="search"
+                            name=""
+                            id=""
+                            class="search-form__input"
+                            placeholder="Gõ từ khóa tiềm kiếm..."
+                        />
+
+                        <img
+                            src="./shop_organic/shop_organic/theme/icons/search.png"
+                            alt=""
+                            class="search-from__icon"
+                        />
+                    </form>
+                    <div class="info-cta__wrap">
+                        <svg
+                            class="info_cta__icon"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 384 512"
+                        >
+                            <path
+                                d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"
+                            />
+                        </svg>
+                        <a href="#!" class="info__btn">Cần Thơ</a>
+                    </div>
+                    <div class="info-consumers">
+                        <ul class="info-consumer__list">
+                            <li class="info-consumer__litem">
+                                <a href="#!" class="info-consumer__link">
+                                    <img
+                                        src="./shop_organic/shop_organic/theme/icons/icon-compare.svg"
+                                        alt=""
+                                        class="info-consumer__icon"
+                                    />
+                                    So sánh
+                                </a>
+                            </li>
+                            <li class="info-consumer__litem">
+                                <a href="#!" class="info-consumer__link">
+                                    <img
+                                        src="./shop_organic/shop_organic/theme/icons/icon-heart.svg"
+                                        alt=""
+                                        class="info-consumer__icon"
+                                    />
+                                    Yêu thích
+                                </a>
+                            </li>
+                            <li class="info-consumer__litem">
+                                <a href="#!" class="info-consumer__link">
+                                    <img
+                                        src="./shop_organic/shop_organic/theme/icons/icon-cart.svg"
+                                        alt=""
+                                        class="info-consumer__icon"
+                                    />
+                                    Giỏ hàng
+                                </a>
+                            </li>
+                            <li class="info-consumer__litem">
+                                <a href="#!" class="info-consumer__link">
+                                    <img
+                                        src="./shop_organic/shop_organic/theme/icons/icon-user.svg"
+                                        alt=""
+                                        class="info-consumer__icon"
+                                    />
+                                    Tài khoản
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Header -->
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <div class="header-cta">
+                        <a href="#!" class="header-cta__btn">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 448 512"
+                                class="header-cta__icon"
+                            >
+                                <path
+                                    d="M384 480c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l320 0zM224 352c-6.7 0-13-2.8-17.6-7.7l-104-112c-6.5-7-8.2-17.2-4.4-25.9s12.5-14.4 22-14.4l208 0c9.5 0 18.2 5.7 22 14.4s2.1 18.9-4.4 25.9l-104 112c-4.5 4.9-10.9 7.7-17.6 7.7z"
+                                />
+                            </svg>
+                            Xem tất cả danh mục
+                        </a>
+                    </div>
+                    <div class="header-pro">
+                        <img
+                            src="./shop_organic/shop_organic/theme/icons/icon-hot.svg"
+                            alt=""
+                        />
+                        <p class="header-pro__desc">Đang khuyến mãi</p>
+                    </div>
+                    <nav class="navbar">
+                        <ul class="navbar__list">
+                            <li class="navbar__item navbar__active">
+                                <a href="#!" class="navbar__link">Trang chủ</a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="#!" class="navbar__link">Giởi thiệu</a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="#!" class="navbar__link">Cửa hàng</a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="#!" class="navbar__link">
+                                    Nhà cung cấp
+                                </a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="#!" class="navbar__link">Tin tức</a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="#!" class="navbar__link">Liên hệ</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="header-contact">
+                        <img
+                            src="./shop_organic/shop_organic/theme/icons/icon-headphone.svg"
+                            alt=""
+                            class="header-contact__phone"
+                        />
+                        <div class="contact-info">
+                            <strong class="contact-info__phone">
+                                0915-659-223
+                            </strong>
+                            <p class="contact-info__desc">
+                                24/7 Tư vấn khách hàng
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main style="height: 10000px;">
+            <!-- Hero -->
+            <section class="hero">
+                <div class="container">
+                    <div class="hero__img">
+                        <div class="hero__content">
+                            <h1 class="hero__heading">Đừng bỏ lỡ <br> các Mặt hàng hấp dẫn</h1>
+                            <p class="hero__desc">Đăng kí ngây để nhận Tin tức mới nhất</p>
+                            <form action="" class="form-email">
+                                <img src="./shop_organic/shop_organic/theme/icons/icon-plane.png" alt="" class="form-email__icon">
+                                <input
+                                    type="email"
+                                    name=""
+                                    id=""
+                                    class="form-email__input"
+                                    placeholder="Địa chỉ Email của bạn"
+                                />
+                                <a href="#!" class="form-email__signup">Đăng kí</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Menu -->
+            <section class="menu">
+                <div class="container">
+                    <div class="hero-menu">
+                        <div class="menu-outstanding">
+                            <h2 class="menu-outstanding__heading">Các Danh mục Nổi bật</h2>
+                            <nav class="navbar-outstanding">
+                                <ul class="navbar-outstanding__list">
+                                    <li class="navbar-outstanding__item  ">
+                                        <a href="#!" class="navbar-outstanding__link">Trứng & Sữa</a>
+                                    </li>
+                                    <li class="navbar-outstanding__item">
+                                        <a href="#!" class="navbar-outstanding__link">Trà & Cafe</a>
+                                    </li>
+                                    <li class="navbar-outstanding__item">
+                                        <a href="#!" class="navbar-outstanding__link">Thức ăn thú cưng</a>
+                                    </li>
+                                    <li class="navbar-outstanding__item">
+                                        <a href="#!" class="navbar-outstanding__link">Rau - Củ - Quả</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="menu-product">
+                            <!-- Product item 1 -->
+                            <div class="product-item">
+                                <img src="./shop_organic/shop_organic/shop/cat-13.png" alt="" class="product-item__img">
+                                <p class="product-item__title">Trứng & Sữa</p>
+                                <p class="product-item__desc">28 sản phẩm</p>
+                            </div>
+                            <!-- Product item 2 -->
+                            <div class="product-item">
+                                <img src="./shop_organic/shop_organic/shop/cat-12.png" alt="" class="product-item__img">
+                                <p class="product-item__title">Trái Kiwi</p>
+                                <p class="product-item__desc">26 sản phẩm</p>
+                            </div>
+                            <!-- Product item 3 -->
+                            <div class="product-item">
+                                <img src="./shop_organic/shop_organic/shop/cat-11.png" alt="" class="product-item__img">
+                                <p class="product-item__title">Trái Đào</p>
+                                <p class="product-item__desc">14 sản phẩm</p>
+                            </div>
+                            <!-- Product item 4 -->
+                            <div class="product-item">
+                                <img src="./shop_organic/shop_organic/shop/cat-9.png" alt="" class="product-item__img">
+                                <p class="product-item__title">Táo đỏ Âu Mỹ</p>
+                                <p class="product-item__desc">54 sản phẩm</p>
+                            </div>
+                            <!-- Product item 5 -->
+                            <div class="product-item">
+                                <img src="./shop_organic/shop_organic/shop/cat-3.png" alt="" class="product-item__img">
+                                <p class="product-item__title">Snack</p>
+                                <p class="product-item__desc">56 sản phẩm</p>
+                            </div>
+                            <!-- Product item 6 -->
+                            <div class="product-item">
+                                <img src="./shop_organic/shop_organic/shop/cat-1.png" alt="" class="product-item__img">
+                                <p class="product-item__title">Rau Của</p>
+                                <p class="product-item__desc">42 sản phẩm</p>
+                            </div>
+                            <!-- Product item 7 -->
+                            <div class="product-item">
+                                <img src="./shop_organic/shop_organic/shop/cat-2.png" alt="" class="product-item__img">
+                                <p class="product-item__title">Dâu</p>
+                                <p class="product-item__desc">36 sản phẩm</p>
+                            </div>
+                            <!-- Product item 8 -->
+                            <div class="product-item">
+                                <img src="./shop_organic/shop_organic/shop/cat-4.png" alt="" class="product-item__img">
+                                <p class="product-item__title">Mận đen</p>
+                                <p class="product-item__desc">132 sản phẩm</p>
+                            </div>
+                            <!-- Product item 9 -->
+                            <div class="product-item">
+                                <img src="./shop_organic/shop_organic/shop/cat-5.png" alt="" class="product-item__img">
+                                <p class="product-item__title">Mãng cầu dai</p>
+                                <p class="product-item__desc">34 sản phẩm</p>
+                            </div>
+                            <!-- Product item 10 -->
+                            <div class="product-item">
+                                <img src="./shop_organic/shop_organic/shop/cat-14.png" alt="" class="product-item__img">
+                                <p class="product-item__title">Trà & Cafe</p>
+                                <p class="product-item__desc">89 sản phẩm</p>
+                            </div>
+                        </div>
+
+                        <div class="menu-images">
+                            <!-- images item 1 -->
+                            <figure class="images-item">
+                                <h3 class="images-item__heading">Thực phẩm Tươi sống <br> & Sạch mỗi ngày</h3>
+                                <a  href="#!" class="images-item__btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="images-item__btn-icon">
+                                        <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>
+                                    Đi chợ ngay
+                                </a>
+                            </figure>
+                            <!-- images item 2 -->
+                            <figure class="images-item">
+                                <h3 class="images-item__heading">Bữa ăn luôn đầy <br> Năng lượng <br> Dinh dưỡng <br>& chế biến dễ dàng</h3>
+                                <a href="#!" class="images-item__btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="images-item__btn-icon">
+                                        <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>
+                                    Đi chợ ngay
+                                </a>
+                            </figure>
+                            <!-- images item 3 -->
+                            <figure class="images-item">
+                                <h3 class="images-item__heading">Các sản phẩm của Nền tảng <br> luôn dành cho <br> Sức khỏe</h3>
+                                <a href="#!" class="images-item__btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="images-item__btn-icon">
+                                        <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>
+                                    Đi chợ ngay
+                                </a>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Famous -->
+            <section class="famous">
+                <div class="container">
+                    <div class="famous-menu">
+                        <h2 class="famous-menu__heading">Các mặt hàng phổ biến</h2>
+                        <nav class="navbar-famous">
+                            <ul class="navbar-famous__list">
+                                <li class="navbar-famous__item">
+                                    <a href="#!" class="navbar-famous__link">Tất cả</a>
+                                </li>
+                                <li class="navbar-famous__item">
+                                    <a href="#!" class="navbar-famous__link">Sữa & chế biến từ sữa</a>
+                                </li>
+                                <li class="navbar-famous__item">
+                                    <a href="#!" class="navbar-famous__link">Trà & Cafe</a>
+                                </li>
+                                <li class="navbar-famous__item">
+                                    <a href="#!" class="navbar-famous__link">Thức ăn Thú cưng</a>
+                                </li>
+                                <li class="navbar-famous__item">
+                                    <a href="#!" class="navbar-famous__link">Thịt</a>
+                                </li>
+                                <li class="navbar-famous__item">
+                                    <a href="#!" class="navbar-famous__link">Rau - củ - quả</a>
+                                </li>
+                                <li class="navbar-famous__item">
+                                    <a href="#!" class="navbar-famous__link">Trái cây</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <div class="famous-list">
+                        <!-- Item 1 -->
+                        <article class="famous-item">
+                            <figure class="famous-item__img">
+                                <img src="./shop_organic/shop_organic/shop/product-1-1.jpg" alt="" class="famous-item__img-thumb">
+                            </figure>
+                            <div class="famous-info">
+                                <p class="famous-info__product">Snack</p>
+                                <h3 class="famous-info__title">Bánh Snack ăn giòn tan</h3>
+                                <div class="evaluate-info">
+                                    <div class="evaluate-info__icons">
+                                        <img src="./shop_organic/shop_organic/theme/icons/icon-star.svg" alt="" class="evaluate-info__icons-wrap">
+                                        <img src="./shop_organic/shop_organic/theme/icons/icon-star.svg" alt="" class="evaluate-info__icons-wrap">
+                                        <img src="./shop_organic/shop_organic/theme/icons/icon-star.svg" alt="" class="evaluate-info__icons-wrap">
+                                        <img src="./shop_organic/shop_organic/theme/icons/icon-star.svg" alt="" class="evaluate-info__icons-wrap">
+                                        <img src="./shop_organic/shop_organic/theme/icons/icon-star.svg" alt="" class="evaluate-info__icons-wrap">
+                                    </div>
+                                    <div class="evaluate-info__strong">(4.0)</div>
+                                </div>
+                                <p class="famous-info__desc">Cung cấp bởi <strong>NenTangFood</strong></p>
+                                <div class="info-price">
+                                    <p class="info-price__money">45,000đ</p>
+                                    <p class="info-price__money-small">48,000đ</p>
+                                    <div class="price-store">
+                                        <img src="./shop_organic/shop_organic/theme/icons/icon-cart.svg" alt="" class="price-store__cart">
+                                        <a href="#!" class="price-store__cta-btn">Thêm</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <!-- Item 2 -->
+                        <article class="famous-item">
+                            <figure class="famous-item__img">
+                                <img src="./shop_organic/shop_organic/shop/product-2-1.jpg" alt="" class="famous-item__img-thumb">
+                            </figure>
+                            <div class="famous-info">
+                                <p class="famous-info__product">Bánh kẹo</p>
+                                <h3 class="famous-info__title">Đồ ăn vặt giảm cân</h3>
+                                <div class="evaluate-info">
+                                    <div class="evaluate-info__icons">
+                                        <img src="./shop_organic/shop_organic/theme/icons/icon-star.svg" alt="" class="evaluate-info__icons-wrap">
+                                        <img src="./shop_organic/shop_organic/theme/icons/icon-star.svg" alt="" class="evaluate-info__icons-wrap">
+                                        <img src="./shop_organic/shop_organic/theme/icons/icon-star.svg" alt="" class="evaluate-info__icons-wrap">
+                                        <img src="./shop_organic/shop_organic/theme/icons/icon-star.svg" alt="" class="evaluate-info__icons-wrap">
+                                    </div>
+                                    <div class="evaluate-info__strong">(3.5)</div>
+                                </div>
+                                <p class="famous-info__desc">Cung cấp bởi <strong>NenTangFood</strong></p>
+                                <div class="info-price">
+                                    <p class="info-price__money">97,000đ</p>
+                                    <p class="info-price__money-small">125,000đ</p>
+                                    <div class="price-store">
+                                        <img src="./shop_organic/shop_organic/theme/icons/icon-cart.svg" alt="" class="price-store__cart">
+                                        <a href="#!" class="price-store__cta-btn">Thêm</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <!-- Item 3 -->
+                        <article class="famous-item">
+                            <figure class="famous-item__img">
+                                <img src="./shop_organic/shop_organic/shop/product-3-1.jpg" alt="" class="famous-item__img-thumb">
+                            </figure>
+                            <div class="famous-info">
+                                <p class="famous-info__product">Snack</p>
+                                <h3 class="famous-info__title">Bánh Snack Rong biển Giòn giòn</h3>
+                                <div class="evaluate-info">
+                                    <div class="evaluate-info__icons">
+                                        <img src="./shop_organic/shop_organic/theme/rating-stars.png" alt="" class="evaluate-info__icons-wrap">
+                                    </div>
+                                    <div class="evaluate-info__strong">(4.0)</div>
+                                </div>
+                                <p class="famous-info__desc">Cung cấp bởi <strong>NenTangFood</strong></p>
+                                <div class="info-price">
+                                    <p class="info-price__money">205,000đ</p>
+                                    <p class="info-price__money-small">99,000đ</p>
+                                    <div class="price-store">
+                                        <img src="./shop_organic/shop_organic/theme/icons/icon-cart.svg" alt="" class="price-store__cart">
+                                        <a href="#!" class="price-store__cta-btn">Thêm</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <!-- Item 4 -->
+                        <article class="famous-item">
+                            <figure class="famous-item__img">
+                                <img src="./shop_organic/shop_organic/shop/product-1-1.jpg" alt="" class="famous-item__img-thumb">
+                            </figure>
+                            <div class="famous-info">
+                                <p class="famous-info__product">Snack</p>
+                                <h3 class="famous-info__title">Bánh Snack ăn giòn tan</h3>
+                                <div class="evaluate-info">
+                                    <div class="evaluate-info__icons">
+                                        <img src="./shop_organic/shop_organic/theme/rating-stars.png" alt="" class="evaluate-info__icons-wrap">
+                                    </div>
+                                    <div class="evaluate-info__strong">(4.0)</div>
+                                </div>
+                                <p class="famous-info__desc">Cung cấp bởi <strong>NenTangFood</strong></p>
+                                <div class="info-price">
+                                    <p class="info-price__money">45,000đ</p>
+                                    <p class="info-price__money-small">48,000đ</p>
+                                    <div class="price-store">
+                                        <img src="./shop_organic/shop_organic/theme/icons/icon-cart.svg" alt="" class="price-store__cart">
+                                        <a href="#!" class="price-store__cta-btn">Thêm</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <!-- Item 5 -->
+                        <article class="famous-item">
+                            <figure class="famous-item__img">
+                                <img src="./shop_organic/shop_organic/shop/product-2-1.jpg" alt="" class="famous-item__img-thumb">
+                            </figure>
+                            <div class="famous-info">
+                                <p class="famous-info__product">Bánh kẹo</p>
+                                <h3 class="famous-info__title">Đồ ăn vặt giảm cân</h3>
+                                <div class="evaluate-info">
+                                    <div class="evaluate-info__icons">
+                                        <img src="./shop_organic/shop_organic/theme/rating-stars.png" alt="" class="evaluate-info__icons-wrap">
+                                    </div>
+                                    <div class="evaluate-info__strong">(3.5)</div>
+                                </div>
+                                <p class="famous-info__desc">Cung cấp bởi <strong>NenTangFood</strong></p>
+                                <div class="info-price">
+                                    <p class="info-price__money">97,000đ</p>
+                                    <p class="info-price__money-small">125,000đ</p>
+                                    <div class="price-store">
+                                        <img src="./shop_organic/shop_organic/theme/icons/icon-cart.svg" alt="" class="price-store__cart">
+                                        <a href="#!" class="price-store__cta-btn">Thêm</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <!-- Item 6 -->
+                        <article class="famous-item">
+                            <figure class="famous-item__img">
+                                <img src="./shop_organic/shop_organic/shop/product-3-1.jpg" alt="" class="famous-item__img-thumb">
+                            </figure>
+                            <div class="famous-info">
+                                <p class="famous-info__product">Snack</p>
+                                <h3 class="famous-info__title">Bánh Snack Rong biển Giòn giòn</h3>
+                                <div class="evaluate-info">
+                                    <div class="evaluate-info__icons">
+                                        <img src="./shop_organic/shop_organic/theme/rating-stars.png" alt="" class="evaluate-info__icons-wrap">
+                                    </div>
+                                    <div class="evaluate-info__strong">(4.0)</div>
+                                </div>
+                                <p class="famous-info__desc">Cung cấp bởi <strong>NenTangFood</strong></p>
+                                <div class="info-price">
+                                    <p class="info-price__money">205,000đ</p>
+                                    <p class="info-price__money-small">99,000đ</p>
+                                    <div class="price-store">
+                                        <img src="./shop_organic/shop_organic/theme/icons/icon-cart.svg" alt="" class="price-store__cart">
+                                        <a href="#!" class="price-store__cta-btn">Thêm</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <!-- Item 7 -->
+                        <article class="famous-item">
+                            <figure class="famous-item__img">
+                                <img src="./shop_organic/shop_organic/shop/product-1-1.jpg" alt="" class="famous-item__img-thumb">
+                            </figure>
+                            <div class="famous-info">
+                                <p class="famous-info__product">Snack</p>
+                                <h3 class="famous-info__title">Bánh Snack ăn giòn tan</h3>
+                                <div class="evaluate-info">
+                                    <div class="evaluate-info__icons">
+                                        <img src="./shop_organic/shop_organic/theme/rating-stars.png" alt="" class="evaluate-info__icons-wrap">
+                                    </div>
+                                    <div class="evaluate-info__strong">(4.0)</div>
+                                </div>
+                                <p class="famous-info__desc">Cung cấp bởi <strong>NenTangFood</strong></p>
+                                <div class="info-price">
+                                    <p class="info-price__money">45,000đ</p>
+                                    <p class="info-price__money-small">48,000đ</p>
+                                    <div class="price-store">
+                                        <img src="./shop_organic/shop_organic/theme/icons/icon-cart.svg" alt="" class="price-store__cart">
+                                        <a href="#!" class="price-store__cta-btn">Thêm</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <!-- Item 8 -->
+                        <article class="famous-item">
+                            <figure class="famous-item__img">
+                                <img src="./shop_organic/shop_organic/shop/product-2-1.jpg" alt="" class="famous-item__img-thumb">
+                            </figure>
+                            <div class="famous-info">
+                                <p class="famous-info__product">Bánh kẹo</p>
+                                <h3 class="famous-info__title">Đồ ăn vặt giảm cân</h3>
+                                <div class="evaluate-info">
+                                    <div class="evaluate-info__icons">
+                                        <img src="./shop_organic/shop_organic/theme/rating-stars.png" alt="" class="evaluate-info__icons-wrap">
+                                    </div>
+                                    <div class="evaluate-info__strong">(3.5)</div>
+                                </div>
+                                <p class="famous-info__desc">Cung cấp bởi <strong>NenTangFood</strong></p>
+                                <div class="info-price">
+                                    <p class="info-price__money">97,000đ</p>
+                                    <p class="info-price__money-small">125,000đ</p>
+                                    <div class="price-store">
+                                        <img src="./shop_organic/shop_organic/theme/icons/icon-cart.svg" alt="" class="price-store__cart">
+                                        <a href="#!" class="price-store__cta-btn">Thêm</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <!-- Item 9 -->
+                        <article class="famous-item">
+                            <figure class="famous-item__img">
+                                <img src="./shop_organic/shop_organic/shop/product-3-1.jpg" alt="" class="famous-item__img-thumb">
+                            </figure>
+                            <div class="famous-info">
+                                <p class="famous-info__product">Snack</p>
+                                <h3 class="famous-info__title">Bánh Snack Rong biển Giòn giòn</h3>
+                                <div class="evaluate-info">
+                                    <div class="evaluate-info__icons">
+                                        <img src="./shop_organic/shop_organic/theme/rating-stars.png" alt="" class="evaluate-info__icons-wrap">
+                                    </div>
+                                    <div class="evaluate-info__strong">(4.0)</div>
+                                </div>
+                                <p class="famous-info__desc">Cung cấp bởi <strong>NenTangFood</strong></p>
+                                <div class="info-price">
+                                    <p class="info-price__money">205,000đ</p>
+                                    <p class="info-price__money-small">99,000đ</p>
+                                    <div class="price-store">
+                                        <img src="./shop_organic/shop_organic/theme/icons/icon-cart.svg" alt="" class="price-store__cart">
+                                        <a href="#!" class="price-store__cta-btn">Thêm</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>

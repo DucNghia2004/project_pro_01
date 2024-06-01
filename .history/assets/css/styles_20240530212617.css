@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+}
+
+input,
+textarea,
+select,
+button {
+    font-size: inherit;
+    font-family: inherit;
+}
+
+.container {
+    width: 100%;
+    max-width: calc(100% - 12px);
+    margin: 0 auto;
+}
+
+/* Comon */
+a {
+    text-decoration: none;
+}
+
+/* Info-header */
+.info-info {
+    position: relative;
+}
+
+.info-info::after {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.144);
+}
+
+.info-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 0;
+}
+
+.info__list {
+    display: flex;
+}
+
+.info__link {
+    position: relative;
+    padding: 4px 8px;
+    color: black;
+    font-size: 1.2rem;
+}
+
+.info__link:hover {
+    text-shadow: 1px 0 0 black;
+    color: black;
+}
+
+.info__link::before {
+    position: absolute;
+    content: "";
+    display: inline-block;
+    height: 15px;
+    width: 1px;
+    top: 5px;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.467);
+}
+
+.indo-product__desc {
+    font-size: 1.2rem;
+    color: black;
+}
+
+.info-contact__list {
+    display: flex;
+}
+
+.info-contact__link {
+    position: relative;
+    padding: 4px 8px;
+    color: black;
+    font-size: 1.2rem;
+}
+
+.info-contact__link::before {
+    position: absolute;
+    content: "";
+    display: inline-block;
+    height: 15px;
+    width: 1px;
+    top: 5px;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.467);
+}
+
+.info-contact__list
+    .info-contact__item:first-child
+    .info-contact__link::before {
+    display: none;
+}
+
+.info__list .info__item:first-child .info__link::before {
+    display: none;
+}
+
+.info__tell {
+    color: rgb(0, 255, 34);
+    font-weight: 500;
+}
+
+/* Info middle */
+.info-middle {
+    padding: 40px 0;
+}
+
+.info__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info__logo {
+    width: 90px;
+    height: 65px;
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+    width: 564px;
+    height: 46px;
+    border: 2px solid rgb(179, 255, 47);
+}
+
+.info-consumer__list {
+    display: flex;
+}

@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+}
+
+input,
+textarea,
+select,
+button {
+    font-size: inherit;
+    font-family: inherit;
+}
+
+.container {
+    width: 1900px;
+    max-width: calc(100% - 48px);
+    margin: 0 auto;
+}
+
+/* Header__top1 */
+header {
+    padding: 20px 0;
+    background-color: #f8f9fa;
+}
+
+.header__top1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar__top1 {
+    display: flex;
+    column-gap: 20px;
+}
+
+.contact {
+    display: flex;
+    column-gap: 10px;
+}
+
+/* Header__top2 */
+.header__top2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #f8f9fa;
+}
+
+.chart__img {
+    width: 44px;
+    height: 44px;
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    width: 100%;
+}
+
+.Icon__shop {
+    display: flex;
+    column-gap: 20px;
+}
+
+/* Header__top3 */
+.header__top3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #f8f9fa;
+}
+
+.header__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: orange;
+    box-shadow: 4px 3px 10px -1px #bf290066;
+}
+
+.navbar__menu {
+    display: flex;
+    column-gap: 20px;
+}
+
+.navbar__menu__link {
+    color: #000;
+    text-decoration: none;
+}
+
+.navbar__menu__link:hover {
+    color: #ff6b6b;
+}

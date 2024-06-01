@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+}
+
+input,
+textarea,
+select,
+button {
+    font-size: inherit;
+    font-family: inherit;
+}
+
+.container {
+    width: 1900px;
+    max-width: calc(100% - 48px);
+    margin: 0 auto;
+}
+
+/* Header__top1 */
+header {
+    padding: 20px 0;
+    background-color: #f8f9fa;
+}
+
+.header__top1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar__top1 {
+    display: flex;
+    column-gap: 20px;
+}
+
+.contact {
+    display: flex;
+    column-gap: 10px;
+}
+
+/* Header__top2 */
+.header__top2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #f8f9fa;
+}
+
+.chart__img {
+    width: 44px;
+    height: 44px;
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    width: 100%;
+}
+
+.Icon__shop {
+    display: flex;
+    column-gap: 20px;
+}
+
+/* Header__top3 */
+.header__top3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #f8f9fa;
+}
+
+.btn__link {
+    text-decoration: none;
+    color: #000;
+}
+
+.header__btn {
+    padding: 12px;
+    background-color: #ff6b6b;
+    border-radius: 12px;
+}
+
+.header__btn:hover {
+    background-color: #ff8787;
+}
+
+.navbar__menu {
+    display: flex;
+    column-gap: 20px;
+}
+
+.navbar__menu__link {
+    color: #000;
+    text-decoration: none;
+}
+
+.navbar__menu__link:hover {
+    color: #ff6b6b;
+}
+
+/* Hero */
+.hero {
+    padding-top: 20px;
+}
+
+.hero__left {
+    width: 60%;
+}
+
+.hero__heading {
+    width: 200px;
+    font-size: 3.6rem;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #000;
+}
